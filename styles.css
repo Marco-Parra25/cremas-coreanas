@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    background-color: pink;
+    color: #090506;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: rgb(9, 8, 8);
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+section#inicio img {
+    max-width: 100%;
+    height: auto;
+}
+
+section#productos .producto {
+    background-color: white;
+    border: 0,5px white;
+    border-radius: 5px;
+    margin: 1rem;
+    padding: 1rem;
+    display: inline-block;
+    width: 30%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    vertical-align: top;
+}
+
+section#productos .producto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: pink;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+section#inicio img {
+    width: 100%;  /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Mantiene la proporción de aspecto original */
+    max-width: 800px; /* Tamaño máximo de la imagen */
+    display: block;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+div#inicio img {
+    width: 100%;  /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Mantiene la proporción de aspecto original */
+    max-width: 600px; /* Tamaño máximo de la imagen */
+    display: block;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
